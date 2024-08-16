@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set the character encoding and viewport settings -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link external CSS files -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+
+    <!-- Page title -->
+    <title>Dealerships</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: darkturquoise; height: 1in"
+    >
+      <div class="container-fluid">
+        <!-- Brand Name / Logo -->
+        <h2 class="navbar-brand" style="padding-right: 5%">Dealerships</h2>
+
+        <!-- Toggle Button for Collapsing Navbar on Smaller Screens -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <!-- Home Link -->
+              <a
+                class="nav-link"
+                style="font-size: larger"
+                aria-current="page"
+                href="/"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <!-- About Us Link -->
+              <a class="nav-link active" style="font-size: larger" href="/about"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <!-- Contact Us Link -->
+              <a class="nav-link" style="font-size: larger" href="/contact"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div class="container mt-5">
+      <!-- About Us Card Section -->
+      <div class="card">
+        <div class="card-body banner">
+          <!-- About Us Header -->
+          <h1>About Us</h1>
+          <!-- Brief Description -->
+          <p>
+            Welcome to Best Cars dealership, home to the best cars in North
+            America. We deal in sale of domestic and imported cars at reasonable
+            prices.
+          </p>
+        </div>
+      </div>
+
+      <!-- Team Members Section -->
+      <div class="row mt-4">
+        <!-- Team Member 1 -->
+        <div class="col-md-4">
+          <div class="card">
+            <!-- Person1 Image -->
+            <img
+              class="card-img-top"
+              src="/static/person.png"
+              alt="Image of Person1"
+            />
+            <div class="card-body">
+              <!-- Person1 Name and Title -->
+              <p class="title">Person1</p>
+              <p>Person1 Title</p>
+              <!-- Brief Description of Person1 -->
+              <p class="card-text">
+                Some text that explains the person1 in about 2 short sentences
+              </p>
+              <!-- Person1 Email -->
+              <p>person1@example.com</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="col-md-4">
+          <div class="card">
+            <!-- Person2 Image -->
+            <img
+              class="card-img-top"
+              src="/static/person.png"
+              alt="Image of Person2"
+            />
+            <div class="card-body">
+              <!-- Person2 Name and Title -->
+              <p class="title">Person2</p>
+              <p>Person2 Title</p>
+              <!-- Brief Description of Person2 -->
+              <p class="card-text">
+                Some text that explains the person2 in about 2 short sentences
+              </p>
+              <!-- Person2 Email -->
+              <p>person2@example.com</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="col-md-4">
+          <div class="card">
+            <!-- Person3 Image -->
+            <img
+              class="card-img-top"
+              src="/static/person.png"
+              alt="Image of Person3"
+            />
+            <div class="card-body">
+              <!-- Person3 Name and Title -->
+              <p class="title">Person3</p>
+              <p>Person3 Title</p>
+              <!-- Brief Description of Person3 -->
+              <p class="card-text">
+                Some text that explains the person3 in about 2 short sentences
+              </p>
+              <!-- Person3 Email -->
+              <p>person3@example.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
